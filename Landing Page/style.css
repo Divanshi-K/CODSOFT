@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    color: aqua;
+}
+#main{
+    width: 100%;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4vw;
+    width: 100%;
+    height: 15vh;
+}
+#nav h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    color: aqua;
+}
+#nav h3 span{
+    font-weight: 600;
+    color: aqua;
+}
+#nav #links{
+    display: flex;
+    gap: 20px;
+}
+#links a{
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 13px;
+    color: aqua;
+}
+#links a:hover{
+    font-weight: 1000;
+    color: #fff;
+}
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 40vh;
+}
+#heading h1{
+    font-size: 40px;
+}
+#heading p{
+    width: 50%;
+    text-align: center;
+    margin: 30px 0px;
+}
+#heading button{
+    padding: 12px 32px;
+    background-color: rgb(70, 65, 65);
+    border-radius: 100px;
+    color: aqua;
+    border-color: aqua;
+    background: #000;
+}
+#heading button:hover{
+    background-color: aqua;
+    color: #000;
+    border-color: #fff;
+    font-weight: 900;
+}
+#illusion{
+    width: 100%;
+}
+#illusion img{
+    width: 100%;
+}
+#details{
+    width: 100%;
+    margin-top: -90px;
+    display: flex;
+    padding: 5vw;
+    justify-content: space-between;
+    padding: 10vw 10vw;
+}
+#details #dleft{
+    width: 48%;
+    border-right: 2px solid aqua;
+    text-align: right;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#details #dleft #smline{
+    width: 5%;
+    height: 2%;
+    margin: 20px 0;
+}
+#details #dleft p{
+    width: 60%;
+    font-size: 12px;
+    text-align: left;
+}
+#details #dright{
+    width: 48%;
+}
+#dright .feature{
+    display: flex;
+    gap: 20px;
+    padding: 5vh;
+}
+.feature p{
+    margin-top: 10px;
+    font-size: 12px;
+    width: 50%;
+}
+.fa-xl{
+    padding: 5vh;
+}
